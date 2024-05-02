@@ -21,7 +21,7 @@ Join me on Telegram, where I share insights, victories, and even the occasional 
 ### Languages:
 | Python3 | Batch | PowerShell |
 |----------|----------|----------|
-|  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python"  alt="Python" width="55" height="55"/> |  <img src="Assets/bat.png" title="Batch" alt="Batch" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/powershell/powershell-original.svg" title="PowerShell" alt="PowerShell" width="55" height="55"/> |
+|  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python"  alt="Python" width="55" height="55"/> |  <img src="assets/bat.png" title="Batch" alt="Batch" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/powershell/powershell-original.svg" title="PowerShell" alt="PowerShell" width="55" height="55"/> |
 
   
 
