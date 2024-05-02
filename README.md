@@ -1,9 +1,9 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=DefinetlyNotAI&title=Stars,Followers,Commits,Repositories,MultipleLang,PullRequest&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 ### About Me: 
-I'm a passionate data scientist with a knack for predictive analytics, specializing in recurrent neural networks (RNN) and LSTM models. I thrive on tackling regression tasks and exploring the fascinating realm of reinforcement learning (RL). Additionally, I have a strong foundation in classical machine learning and possess the requisite mathematical prowess.
+I'm a passionate penetration tester / Ethical Hacker with a knack for ~~destruction~~ red team hacking, specializing in network attacks and analysis and hacking tool creation. I thrive on testing and learning new hacking tools and exploiting vulnerabilities then fixing them. Additionally, I have a strong foundation in robotics and possess the requisite mathematical prowess ~~I am a nerd~~.
 
-Currently, I'm delving into the realms of decentralized finance (DeFi) and web3, where I'm actively engaged in crafting and analyzing smart contracts. During my leisure time, you'll find me honing my problem-solving skills on LeetCode and participating in CTF challenges.
+Currently, I'm delving into the realms of metasploit as well as my own life's exam's, where I'm actively engaged in ~~wasting time rather than studying by~~ tool creation. During my leisure time, you'll find me honing my problem-solving skills on python and participating in robotics challenges.
 
 
 ### Social media: 📡  
