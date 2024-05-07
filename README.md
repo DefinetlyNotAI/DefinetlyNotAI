@@ -57,30 +57,28 @@ Join me on email, where I share insights, victories, and even the occasional set
 
 | Device/Tool | Icon |
 |-------------|------|
-| Flipper Zero | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="Flipper Zero" alt="Flipper Zero" width="30" height="30"/> |
-| Pwngotchi | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="Pwngotchi" alt="Pwngotchi" width="30" height="30"/> |
-| EvilTwin ESP8266 | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="EvilTwin ESP8266" alt="EvilTwin ESP8266" width="30" height="30"/> |
-| Tails OS BootUSB | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="Tails OS BootUSB" alt="Tails OS BootUSB" width="30" height="30"/> |
-| HBCP BootUSB | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="HBCP BootUSB" alt="HBCP BootUSB" width="30" height="30"/> |
-| Malware Archive USB | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="Malware Archive USB" alt="Malware Archive USB" width="30" height="30"/> |
-| DSTIKE Deauther | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="DSTIKE Deauther" alt="DSTIKE Deauther" width="30" height="30"/> |
-| ALFA Network NIC | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="ALFA Network NIC" alt="ALFA Network NIC" width="30" height="30"/> |
-| Arduino Leo + Hacking Firmware | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="Arduino Leo + Hacking Firmware" alt="Arduino Leo + Hacking Firmware" width="30" height="30"/> |
-| USBNugget | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="USBNugget" alt="USBNugget" width="30" height="30"/> |
-| Raspberry Pi Cluster (5 pi's, 4B) | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="Raspberry Pi Cluster (5 pi's, 4B)" alt="Raspberry Pi Cluster (5 pi's, 4B)" width="30" height="30"/> |
-| Raspberry PI Laptop (1 pi, 5B) | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="Raspberry PI Laptop (1 pi, 5B)" alt="Raspberry PI Laptop (1 pi, 5B)" width="30" height="30"/> |
-| HackyPI USB | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="HackyPI USB" alt="HackyPI USB" width="30" height="30"/> |
-| USBKILL | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="USBKILL" alt="USBKILL" width="30" height="30"/> |
-| ESP8266 Cluster | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="ESP8266 Cluster" alt="ESP8266 Cluster" width="30" height="30"/> |
-| ESP32 Cluster | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="ESP32 Cluster" alt="ESP32 Cluster" width="30" height="30"/> |
-| USB ISP Programmer | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="USB ISP Programmer" alt="USB ISP Programmer" width="30" height="30"/> |
-| NFC Cloner | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="NFC Cloner" alt="NFC Cloner" width="30" height="30"/> |
-| ESP Maurauder | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="ESP Maurauder" alt="ESP Maurauder" width="30" height="30"/> |
-| HackRF Radio Jammer | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="HackRF Radio Jammer" alt="HackRF Radio Jammer" width="30" height="30"/> |
-| M5Stack Cardputer | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="M5Stack Cardputer" alt="M5Stack Cardputer" width="30" height="30"/> |
-| ESP32 DevBoard | <img src="https://github.com/devicons/devicon/blob/master/icons/technology/technology-original.svg" title="ESP32 DevBoard" alt="ESP32 DevBoard" width="30" height="30"/>
-
-
+| Flipper Zero | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/flipper" title="Flipper Zero" alt="Flipper Zero" width="30" height="30"/> |
+| Pwngotchi | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/pwngotchi.svg" title="Pwngotchi" alt="Pwngotchi" width="30" height="30"/> |
+| EvilTwin ESP8266 | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/Pineapple.svg" title="EvilTwin ESP8266" alt="EvilTwin ESP8266" width="30" height="30"/> |
+| Tails OS BootUSB | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/tails.svg" title="Tails OS BootUSB" alt="Tails OS BootUSB" width="30" height="30"/> |
+| HBCP BootUSB | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/windows.svg" title="HBCP BootUSB" alt="HBCP BootUSB" width="30" height="30"/> |
+| Malware Archive USB | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/malware.svg" title="Malware Archive USB" alt="Malware Archive USB" width="30" height="30"/> |
+| DSTIKE Deauther | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/deauth.svg" title="DSTIKE Deauther" alt="DSTIKE Deauther" width="30" height="30"/> |
+| ALFA Network NIC | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/alfa.svg" title="ALFA Network NIC" alt="ALFA Network NIC" width="30" height="30"/> |
+| Arduino Leo + Hacking Firmware | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/arduino.svg" title="Arduino Leo + Hacking Firmware" alt="Arduino Leo + Hacking Firmware" width="30" height="30"/> |
+| USBNugget | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/usbnugget.svg" title="USBNugget" alt="USBNugget" width="30" height="30"/> |
+| Raspberry Pi Cluster (5 pi's, 4B) | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/pi.svg" title="Raspberry Pi Cluster (5 pi's, 4B)" alt="Raspberry Pi Cluster (5 pi's, 4B)" width="30" height="30"/> |
+| Raspberry PI Laptop (1 pi, 5B) | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/pi.svg" title="Raspberry PI Laptop (1 pi, 5B)" alt="Raspberry PI Laptop (1 pi, 5B)" width="30" height="30"/> |
+| HackyPI USB | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/pi.svg" title="HackyPI USB" alt="HackyPI USB" width="30" height="30"/> |
+| USBKILL | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/kill.svg" title="USBKILL" alt="USBKILL" width="30" height="30"/> |
+| ESP8266 Cluster | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/esp8266.svg" title="ESP8266 Cluster" alt="ESP8266 Cluster" width="30" height="30"/> |
+| ESP32 Cluster | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/esp32.svg" title="ESP32 Cluster" alt="ESP32 Cluster" width="30" height="30"/> |
+| USB ISP Programmer | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/isp.svg" title="USB ISP Programmer" alt="USB ISP Programmer" width="30" height="30"/> |
+| NFC Cloner | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/nfc.svg" title="NFC Cloner" alt="NFC Cloner" width="30" height="30"/> |
+| ESP Maurauder | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/maur.svg" title="ESP Maurauder" alt="ESP Maurauder" width="30" height="30"/> |
+| HackRF Radio Jammer | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/jammer.svg" title="HackRF Radio Jammer" alt="HackRF Radio Jammer" width="30" height="30"/> |
+| M5Stack Cardputer | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/card.svg" title="M5Stack Cardputer" alt="M5Stack Cardputer" width="30" height="30"/> |
+| ESP32 DevBoard | <img src="https://github.com/DefinetlyNotAI/DefinetlyNotAI/tree/main/ico/esp32.svg" title="ESP32 DevBoard" alt="ESP32 DevBoard" width="30" height="30"/> |
 
 
 </div>
