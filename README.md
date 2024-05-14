@@ -52,38 +52,6 @@ Join me on email, where I share insights, victories, and even the occasional set
 
 
 
-
-
-### Hacking Hardware:
-
-| Device/Tool | Icon |
-|-------------|------|
-| Flipper Zero |<img src="/ico/flipper.png" width="80" height="80">|
-| Pwngotchi |<img src="/ico/pwngotchi.png" width="80" height="80">|
-| EvilTwin ESP8266 |<img src="/ico/Pineapple.jpg" width="80" height="80">|
-| Tails OS BootUSB |<img src="/ico/tails.jpg" width="80" height="80">|
-| HBCP BootUSB |<img src="/ico/windows.jpg" width="80" height="80">|
-| Malware Archive USB |<img src="/ico/malware.png" width="80" height="80">|
-| DSTIKE Deauther |<img src="/ico/deauth.png" width="80" height="80">|
-| ALFA Network NIC |<img src="/ico/alfa.png" width="80" height="80">|
-| Arduino Leo + Hacking Firmware |<img src="/ico/arduino.png" width="80" height="80">|
-| USBNugget |<img src="/ico/usbnugget.png" width="80" height="80">|
-| Raspberry Pi Cluster (5 pi's, 4B) |<img src="/ico/pi.png" width="80" height="80">|
-| Raspberry PI Laptop (1 pi, 5B) |<img src="/ico/pi.png" width="80" height="80">|
-| HackyPI USB |<img src="/ico/pi.png" width="80" height="80">|
-| USBKILL |<img src="/ico/kill.png" width="80" height="80">|
-| ESP8266 Cluster |<img src="/ico/esp8266.jpg" width="80" height="80">|
-| ESP32 Cluster |<img src="/ico/esp32.jpg" width="80" height="80">|
-| USB ISP Programmer |<img src="/ico/isp.png" width="80" height="80">|
-| NFC Cloner |<img src="/ico/nfc.png" width="80" height="80">|
-| ESP Maurauder |<img src="/ico/maur.jpg" width="80" height="80">|
-| HackRF Radio Jammer |<img src="/ico/jammer.png" width="80" height="80">|
-| M5Stack Cardputer |<img src="/ico/card.jpg" width="80" height="80">|
-| ESP32 DevBoard |<img src="/ico/esp32.jpg" width="80" height="80">|
-
-
-
-
 </div>
 
 ---
