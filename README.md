@@ -21,9 +21,10 @@ Join me on email, where I share insights, victories, and even the occasional set
 <div>
 
 ### Languages:
-| Python3 | PowerShell |
-|---------|------------|
-|  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python"  alt="Python" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/powershell/powershell-original.svg" title="PowerShell" alt="PowerShell" width="55" height="55"/> |
+| Python3 | PowerShell | Arduino |
+|---------|------------|---------|
+|  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python"  alt="Python" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/powershell/powershell-original.svg" title="PowerShell" alt="PowerShell" width="55" height="55"/> |  <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original-wordmark.svg" title="Arduino"  alt="Arduino" width="55" height="55"/> |
+
 
   
 ### Environments, Testing, Other:
