@@ -73,7 +73,6 @@ Join me on email, where I share insights, victories, and even the occasional set
 </p>
  
 
-
 <div id="header" align="center">
   <img src="https://komarev.com/ghpvc/?username=DefinetlyNotAI&style=for-the-badge&color=orange" alt=""/>
 </div>
