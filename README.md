@@ -1,21 +1,25 @@
+<img src="https://readme-typing-svg.herokuapp.com?font=DM+Sans&weight=800&size=30&pause=250&duration=2000&color=DCABDF&width=555&lines=Hi+there!+👋,+I'm+Shahm+Najeeb;Welcome+to+my+Github+profile+🚀;Check+out+my+projects!+🏆" />
+<img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
+
 [![trophy](https://github-profile-trophy.vercel.app/?username=DefinetlyNotAI&title=Stars,Followers,Commits,Repositories,MultipleLang,PullRequest&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
+<img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 
 ### About Me: 
 I'm a passionate penetration tester / Ethical Hacker with a knack for ~~destruction~~ red team hacking, specializing in network attacks and analysis and hacking tool creation. I thrive on testing and learning new hacking tools and exploiting vulnerabilities then fixing them. Additionally, I have a strong foundation in robotics and possess the requisite mathematical prowess ~~I am a nerd~~.
 
 Currently, I'm delving into the realms of metasploit as well as my own life's exam's, where I'm actively engaged in ~~wasting time rather than studying by~~ tool creation. During my leisure time, you'll find me honing my problem-solving skills on python and participating in robotics challenges.
-
+<img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 
 ### Social media: 📡  
 Join me on email, where I share insights, victories, and even the occasional setback. [Nirt_12023@outlook.com](mailto:Nirt_12023@outlook.com)
 
 
-## Competitions: 🥇
+## Platforms: 🥇
 
-### Algorithms [LeetCode](https://leetcode.com/DefinetlyNotAI/) (No hate, I'm New...)
+### [LeetCode](https://leetcode.com/DefinetlyNotAI/) (No hate, I'm New...)
 
-
+<img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 
 ## Languages and Tools 
 <div>
@@ -52,7 +56,7 @@ Join me on email, where I share insights, victories, and even the occasional set
 <img src="https://github.com/devicons/devicon/blob/master/icons/confluence/confluence-original-wordmark.svg" title="Confluence" alt="Confluence" width="40" height="40" style="border: 2px solid #fff; padding: 5px; margin: 5px; display: inline-block;"/>
 
 
-
+<img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 </div>
 
 ---
