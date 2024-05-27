@@ -11,9 +11,8 @@ I'm a passionate penetration tester / Ethical Hacker with a knack for ~~destruct
 Currently, I'm delving into the realms of metasploit as well as my own life's exam's, where I'm actively engaged in ~~wasting time rather than studying by~~ tool creation. During my leisure time, you'll find me honing my problem-solving skills on python and participating in robotics challenges.
 <img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 
-### Social media: 📡  
+### Communicate: 📡  
 Join me on email, where I share insights, victories, and even the occasional setback. [Nirt_12023@outlook.com](mailto:Nirt_12023@outlook.com)
-
 
 ## Platforms: 🥇
 
