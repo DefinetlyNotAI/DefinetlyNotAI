@@ -9,18 +9,27 @@
 I'm a passionate penetration tester / Ethical Hacker with a knack for ~~destruction~~ red team hacking, specializing in network attacks and analysis and hacking tool creation. I thrive on testing and learning new hacking tools and exploiting vulnerabilities then fixing them. Additionally, I have a strong foundation in robotics and possess the requisite mathematical prowess ~~I am a nerd~~.
 
 Currently, I'm delving into the realms of metasploit as well as my own life's exam's, where I'm actively engaged in ~~wasting time rather than studying by~~ tool creation. During my leisure time, you'll find me honing my problem-solving skills on python and participating in robotics challenges.
-<img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
-
-### Communicate: 📡  
-Join me on email, where I share insights, victories, and even the occasional setback. [Nirt_12023@outlook.com](mailto:Nirt_12023@outlook.com)
-
-## Platforms: 🥇
-
-### [LeetCode](https://leetcode.com/DefinetlyNotAI/) (No hate, I'm New...)
 
 <img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 
-## Languages and Tools 
+<details>
+  <summary>Communicate With Me</summary>
+  
+  ### Communicate: 📡  
+  Join me on email, where I share insights, victories, and even the occasional setback. [Nirt_12023@outlook.com](mailto:Nirt_12023@outlook.com)
+
+  ## Platforms: 🥇
+
+  ### [LeetCode](https://leetcode.com/DefinetlyNotAI/) (No hate, I'm New...)
+
+  <img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
+</details>
+
+
+<details>
+  <summary>Tools and Tech I use</summary>
+
+  ## Languages and Tools 
 <div>
 
 ### Languages:
@@ -54,6 +63,9 @@ Join me on email, where I share insights, victories, and even the occasional set
 <img src="https://github.com/devicons/devicon/blob/master/icons/gitlab/gitlab-original-wordmark.svg" title="GitLab" alt="GitLab" width="40" height="40" style="border: 2px solid #fff; padding: 5px; margin: 5px; display: inline-block;"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/confluence/confluence-original-wordmark.svg" title="Confluence" alt="Confluence" width="40" height="40" style="border: 2px solid #fff; padding: 5px; margin: 5px; display: inline-block;"/>
 
+</details>
+
+
 
 <img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 </div>
@@ -84,8 +96,3 @@ Join me on email, where I share insights, victories, and even the occasional set
 <p align="center">
  <img width="1000" src="assets/github-snake.svg" alt="snake"/>
 </p>
-
-Thanks to sammorozov for the README idea.
-
-
-
