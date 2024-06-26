@@ -99,7 +99,3 @@ Joined GitHub Galaxy 2024.
 <p align="center">
  <img width="1000" src="assets/github-snake.svg" alt="snake"/>
 </p>
-
-<p align="center">
- <img width="1000" src="assets/octocat.png" alt="snake"/>
-</p>
