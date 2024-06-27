@@ -10,7 +10,7 @@
 ### About Me: 
 I'm a passionate penetration tester / Ethical Hacker with a knack for ~~destruction~~ red team hacking, specializing in network attacks and analysis and hacking tool creation. I thrive on testing and learning new hacking tools and exploiting vulnerabilities then fixing them. Additionally, I have a strong foundation in robotics and possess the requisite mathematical prowess ~~I am a nerd~~.
 
-Currently, I'm delving into the realms of metasploit as well as my own life's exam's, where I'm actively engaged in tool creation. During my leisure time, you'll find me honing my problem-solving skills on python and participating in robotics challenges.
+Currently, I'm delving into the realms of metasploit, where I'm actively engaged in tool creation. During my leisure time, you'll find me honing my problem-solving skills on python and participating in robotics challenges.
 
 Joined GitHub Galaxy 2024.
 
