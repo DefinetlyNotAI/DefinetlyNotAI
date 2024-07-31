@@ -1,6 +1,5 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=DM+Sans&weight=800&size=30&pause=250&duration=2000&color=DCABDF&width=555&lines=Hi+there!+👋,+I'm+Shahm+Najeeb;Welcome+to+my+Github+profile+🚀;Check+out+my+projects!+🏆" />
 
-
 <img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=DefinetlyNotAI&title=Stars,Commits,Repositories,MultipleLang,PullRequest&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
