@@ -18,17 +18,13 @@ Joined GitHub Galaxy 2024.
 
 <img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 
-<details>
-  <summary>Communicate With Me</summary>
-  
-  ### Communicate: 📡  
-  Join me on email, where I share insights, victories, and even the occasional setback. [Nirt_12023@outlook.com](mailto:Nirt_12023@outlook.com)
+### Communicate: 📡  
+Join me on email, where I share insights, victories, and even the occasional setback. [Nirt_12023@outlook.com](mailto:Nirt_12023@outlook.com)
 
-  ## Platforms: 🥇
+## Platforms: 🥇
 
-  ### [LeetCode](https://leetcode.com/DefinetlyNotAI/) (No hate, I'm New...)
+[**Leetcode**](https://leetcode.com/DefinetlyNotAI/) (No hate, I'm New...)
 
-</details>
 
 
 <details>
