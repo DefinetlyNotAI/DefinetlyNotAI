@@ -61,8 +61,6 @@ Join me on email, where I share insights, victories, and even the occasional set
 <img src="https://github.com/devicons/devicon/blob/master/icons/json/json-original.svg" title="json" alt="json" width="40" height="40" style="border: 2px solid #fff; padding: 5px; margin: 5px; display: inline-block;"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" title="vsc" alt="vsc" width="40" height="40" style="border: 2px solid #fff; padding: 5px; margin: 5px; display: inline-block;"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/pycharm/pycharm-original.svg" title="PC" alt="PC" width="40" height="40" style="border: 2px solid #fff; padding: 5px; margin: 5px; display: inline-block;"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/gitlab/gitlab-original-wordmark.svg" title="GitLab" alt="GitLab" width="40" height="40" style="border: 2px solid #fff; padding: 5px; margin: 5px; display: inline-block;"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/confluence/confluence-original-wordmark.svg" title="Confluence" alt="Confluence" width="40" height="40" style="border: 2px solid #fff; padding: 5px; margin: 5px; display: inline-block;"/>
 
 </details>
 
