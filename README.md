@@ -77,6 +77,8 @@ Join me on email, where I share insights, victories, and even the occasional set
   <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DefinetlyNotAI&size_weight=0.15&count_weight=0.5&layout=compact&theme=vision-friendly-dark">
 </p>
 
+---
+
 <div id="header" align="center">
   <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/66dc2997c46f68d052bf5cc4?variant=dark&roadmaps=cyber-security" alt="roadmap.sh"/></a>
 </div>
