@@ -80,7 +80,7 @@ Join me on email, where I share insights, victories, and even the occasional set
 ---
 
 <div id="header" align="center">
-  <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/66dc2997c46f68d052bf5cc4?variant=dark&roadmaps=cyber-security" alt="roadmap.sh"/></a>
+  <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/66dc2997c46f68d052bf5cc4?variant=dark" alt="roadmap.sh"/></a>
 </div>
 
 <div id="header" align="center">
