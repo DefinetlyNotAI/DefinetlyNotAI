@@ -18,9 +18,9 @@ Joined GitHub Galaxy 2024.
 ### Communicate: 📡  
 Join me on email, where I share insights, victories, and even the occasional setback. [Nirt_12023@outlook.com](mailto:Nirt_12023@outlook.com)
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.leetcode.com/definetlynotai" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="definetlynotai" height="30" width="40" /></a>
+  Connect with me:
+  <a href="https://www.leetcode.com/definetlynotai" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="definetlynotai" height="30" width="40" /></a>
 </p>
 
 <details>
@@ -76,7 +76,10 @@ Join me on email, where I share insights, victories, and even the occasional set
   <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=DefinetlyNotAI&show_icons=true&theme=vision-friendly-dark">
   <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DefinetlyNotAI&size_weight=0.15&count_weight=0.5&layout=compact&theme=vision-friendly-dark">
 </p>
- 
+
+<div id="header" align="center">
+  <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/66dc2997c46f68d052bf5cc4?variant=dark&roadmaps=cyber-security" alt="roadmap.sh"/></a>
+</div>
 
 <div id="header" align="center">
   <img src="https://komarev.com/ghpvc/?username=DefinetlyNotAI&style=for-the-badge&color=orange" alt=""/>
