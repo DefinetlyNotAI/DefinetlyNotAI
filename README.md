@@ -2,7 +2,6 @@
 
 <img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 
-<!-- Daym, its not updating commits -->
 [![trophy](https://github-profile-trophy.vercel.app/?username=DefinetlyNotAI&title=-Experience&theme=onedark)](https://github.com/DefinetlyNotAI/Logicytics)
 
 <img width="1000" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
