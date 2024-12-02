@@ -49,6 +49,7 @@ Join me on email, where I share insights, victories, and even the occasional set
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" height="40" alt="scala logo" />
                     <img src="https://skillicons.dev/icons?i=rust" height="40" alt="rust logo" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angularjs logo" />
+                    <img src="https://github.com/user-attachments/assets/9aa70e8d-325f-4bd8-b5c8-3cd6575446bb" height="40" alt="kotlin logo" />
                 </td>
                 <td>
                     <img src="https://skillicons.dev/icons?i=md" height="40" alt="markdown logo" />
