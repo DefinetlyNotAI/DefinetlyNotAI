@@ -104,9 +104,15 @@ Join me on email, where I share insights, victories, and even the occasional set
 
 <p align="center">
   <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=DefinetlyNotAI&size_weight=5.0&show_icons=true&theme=vision-friendly-dark">
-  <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DefinetlyNotAI&size_weight=0.15&layout=compact&theme=vision-friendly-dark&hide=jupyter%20notebook,cython,css,cuda,cmake,shell,pascal">
+  <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DefinetlyNotAI&size_weight=0.15&layout=compact&theme=vision-friendly-dark&hide=jupyter%20notebook,cython,css,cuda,cmake,shell,pascal,html,scss">
 </p>
 
-<!-- Intentionally removed Jupyter Notebook (Not a real language in my eyes), as well as CSS - Although for Cuda, CMake, Pascal and Shell, they were removed cuz they were decompiled libraries, and not my programming expertise -->
+<!-- Intentionally removed Jupyter Notebook (Not a real language in my eyes), as well as CSS and html - Although for Cuda, CMake, Pascal and Shell, they were removed cuz they were decompiled libraries, and not my programming expertise -->
+
+---
+
+<p align="center">
+      <img src="https://user-badge.committers.top/uae/DefinetlyNotAI.svg">
+</p>
 
 ---
