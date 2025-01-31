@@ -97,7 +97,7 @@ Join me on email, where I share insights, victories, and even the occasional set
 ---
 
 <p align="center">
-  <img width="800" height="220" src="https://streak-stats.demolab.com?user=DefinetlyNotAI&theme=highcontrast&hide_border=true&border_radius=5&card_width=800">
+    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=DefinetlyNotAI&theme=highcontrast&hide_border=true&border_radius=5&card_width=800" alt="GitHub Streak" /></a>
 </p>
 
 ---
