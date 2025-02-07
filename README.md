@@ -76,7 +76,6 @@ Join me on email, where I share insights, victories, and even the occasional set
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webstorm/webstorm-original.svg" height="40" alt="webstorm logo" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height="40" alt="jetbrains logo" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo" />
-                    <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo" />
                 </td>
                 <td>
                     <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Windows-Dark.svg" height="40" alt="windows logo" />
@@ -96,11 +95,16 @@ Join me on email, where I share insights, victories, and even the occasional set
 
 ---
 
+<!--
+COMMENTED OUT DUE TO IT NOT WORKING
+
 <p align="center">
     <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=DefinetlyNotAI&theme=highcontrast&hide_border=true&border_radius=5&card_width=800" alt="GitHub Streak" /></a>
 </p>
 
 ---
+
+-->
 
 <p align="center">
   <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=DefinetlyNotAI&size_weight=5.0&show_icons=true&theme=vision-friendly-dark">
