@@ -19,79 +19,69 @@ Check out my [website](https://definetlynotai.github.io/Website/). Its very basi
 Join me on email, where I share insights, victories, and even the occasional setback. [Nirt_12023@outlook.com](mailto:Nirt_12023@outlook.com)
 
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>Languages</th>
-                <th>Learning Languages</th>
-                <th>Frameworks</th>
-                <th>Tools & Misc</th>
-                <th>Applications, Browsers & OS</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
-                    <img src="https://skillicons.dev/icons?i=powershell" height="40" alt="powershell logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
-                    <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
-                </td>
-                <td>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" height="40" alt="java logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" alt="android logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="40" alt="swift logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" height="40" alt="scala logo" />
-                    <img src="https://skillicons.dev/icons?i=rust" height="40" alt="rust logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angularjs logo" />
-                    <img src="https://github.com/user-attachments/assets/9aa70e8d-325f-4bd8-b5c8-3cd6575446bb" height="40" alt="kotlin logo" />
-                </td>
-                <td>
-                    <img src="https://skillicons.dev/icons?i=md" height="40" alt="markdown logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="androidstudio logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg" height="40" alt="arduino logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" height="40" alt="jquery logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo" />
-                    <img src="https://skillicons.dev/icons?i=flask" height="40" alt="flask logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="40" alt="opencv logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original-wordmark.svg" height="40" alt="pytest logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" height="40" alt="jupyter logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="tensorflow logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo" />
-                    <img src="https://github.com/devicons/devicon/blob/master/icons/jekyll/jekyll-original-wordmark.svg" height="40" alt="jekyll" />
-                    <img src="https://github.com/devicons/devicon/blob/master/icons/matplotlib/matplotlib-plain.svg" height="40" alt="matplotlib" />
-                    <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" height="40" alt="nodejs" />
-                    <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" height="40" alt="react" />
-                    <img src="https://github.com/devicons/devicon/blob/master/icons/vitejs/vitejs-original.svg" height="40" alt="vitejs" />
-                </td>
-                <td>
-                    <img src="https://cdn.simpleicons.org/git/F05032" height="40" alt="git logo" />
-                    <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo" />
-                    <img src="https://skillicons.dev/icons?i=githubactions" height="40" alt="githubactions logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="40" alt="intellij logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webstorm/webstorm-original.svg" height="40" alt="webstorm logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height="40" alt="jetbrains logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo" />
-                </td>
-                <td>
-                    <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Windows-Dark.svg" height="40" alt="windows logo" />
-                    <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Kali-Dark.svg" height="40" alt="kali linux logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="40" alt="raspberry pi logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg" height="40" alt="opera logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="40" alt="slack logo" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/putty/putty-original.svg" height="40" alt="putty logo" />
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div align="center">
+        <table>
+            <thead>
+                <tr>
+                    <th>Languages</th>
+                    <th>Frameworks</th>
+                    <th>Tools & Misc</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
+                        <img src="https://skillicons.dev/icons?i=powershell" height="40" alt="powershell logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
+                        <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
+                    </td>
+                    <td>
+                        <img src="https://skillicons.dev/icons?i=md" height="40" alt="markdown logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="androidstudio logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg" height="40" alt="arduino logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" height="40" alt="jquery logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo" />
+                        <img src="https://skillicons.dev/icons?i=flask" height="40" alt="flask logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="40" alt="opencv logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original-wordmark.svg" height="40" alt="pytest logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" height="40" alt="jupyter logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="tensorflow logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo" />
+                        <img src="https://github.com/devicons/devicon/blob/master/icons/jekyll/jekyll-original-wordmark.svg" height="40" alt="jekyll" />
+                        <img src="https://github.com/devicons/devicon/blob/master/icons/matplotlib/matplotlib-plain.svg" height="40" alt="matplotlib" />
+                        <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" height="40" alt="nodejs" />
+                        <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" height="40" alt="react" />
+                        <img src="https://github.com/devicons/devicon/blob/master/icons/vitejs/vitejs-original.svg" height="40" alt="vitejs" />
+                        <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original.svg" height="40" alt="arduino" />
+                    </td>
+                    <td>
+                        <img src="https://cdn.simpleicons.org/git/F05032" height="40" alt="git logo" />
+                        <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo" />
+                        <img src="https://skillicons.dev/icons?i=githubactions" height="40" alt="githubactions logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="40" alt="intellij logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webstorm/webstorm-original.svg" height="40" alt="webstorm logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height="40" alt="jetbrains logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo" />
+                        <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Windows-Dark.svg" height="40" alt="windows logo" />
+                        <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Kali-Dark.svg" height="40" alt="kali linux logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="40" alt="raspberry pi logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg" height="40" alt="opera logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="40" alt="slack logo" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/putty/putty-original.svg" height="40" alt="putty logo" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
 
