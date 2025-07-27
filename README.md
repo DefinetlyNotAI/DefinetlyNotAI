@@ -66,6 +66,9 @@ Join me on email, where I share insights, victories, and even the occasional set
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo" />
                     <img src="https://github.com/devicons/devicon/blob/master/icons/jekyll/jekyll-original-wordmark.svg" height="40" alt="jekyll" />
                     <img src="https://github.com/devicons/devicon/blob/master/icons/matplotlib/matplotlib-plain.svg" height="40" alt="matplotlib" />
+                    <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" height="40" alt="nodejs" />
+                    <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" height="40" alt="react" />
+                    <img src="https://github.com/devicons/devicon/blob/master/icons/vitejs/vitejs-original.svg" height="40" alt="vitejs" />
                 </td>
                 <td>
                     <img src="https://cdn.simpleicons.org/git/F05032" height="40" alt="git logo" />
