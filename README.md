@@ -6,12 +6,13 @@
 
 ---
 
-## About Me: 
-I'm a passionate penetration tester / Ethical Hacker with a knack for ~~destruction~~ red team hacking, specializing in network attacks and analysis and hacking tool creation. I thrive on testing and learning new hacking tools and exploiting vulnerabilities then fixing them. Additionally, I have a strong foundation in robotics and possess the requisite mathematical prowess ~~I am a nerd~~.
+## About Me
 
-Currently, I'm delving into the realms of metasploit, where I'm actively engaged in tool creation. During my leisure time, you'll find me honing my problem-solving skills on python and participating in robotics challenges.
+I'm a passionate penetration tester and ethical hacker with a knack for ~~destruction~~ red team hacking, specializing in network attacks, vulnerability analysis, and custom hacking tool development. I thrive on pushing systems to their limits, exploiting weaknesses, and then reinforcing them stronger than before.
 
-Check out my [website](https://definetlynotai.github.io/Website/). Its very basic but covers important things abt me.
+Beyond cybersecurity, I have a strong foundation in robotics and the mathematical prowess to tackle complex problems ~~I am a nerd~~. Recently, my focus has expanded into creating advanced security tools, experimenting with exploit simulations, and refining my reverse engineering skills.
+
+When I’m not deep in code, you’ll find me building new software projects, diving into ARG development, and competing in technical challenges that demand both creativity and precision. 
 
 ---
 
@@ -59,7 +60,6 @@ Join me on email, where I share insights, victories, and even the occasional set
                         <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" height="40" alt="nodejs" />
                         <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" height="40" alt="react" />
                         <img src="https://github.com/devicons/devicon/blob/master/icons/vitejs/vitejs-original.svg" height="40" alt="vitejs" />
-                        <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original.svg" height="40" alt="arduino" />
                     </td>
                     <td>
                         <img src="https://cdn.simpleicons.org/git/F05032" height="40" alt="git logo" />
@@ -88,16 +88,13 @@ Join me on email, where I share insights, victories, and even the occasional set
 
 ---
 
-<!--
-COMMENTED OUT DUE TO IT NOT WORKING
-
 <p align="center">
     <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=DefinetlyNotAI&theme=highcontrast&hide_border=true&border_radius=5&card_width=800" alt="GitHub Streak" /></a>
 </p>
 
 ---
 
--->
+
 
 <p align="center">
   <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=DefinetlyNotAI&size_weight=5.0&show_icons=true&theme=vision-friendly-dark">
