@@ -1,23 +1,26 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=DM+Sans&weight=800&size=30&pause=250&duration=2000&color=DCABDF&width=555&lines=Hi+there!+👋,+I'm+Shahm+Najeeb;Welcome+to+my+Github+profile+🚀;Check+out+my+projects+🏆" />
 
----
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=DefinetlyNotAI&title=-Experience&theme=onedark)](https://github.com/DefinetlyNotAI/Logicytics)
+<img src="https://github-profile-trophy.vercel.app/?username=DefinetlyNotAI&title=-Experience&theme=onedark" 
+     onerror="this.style.display='none'" alt="">
 
 ---
 
 ## About Me
 
-I'm a passionate penetration tester and ethical hacker with a knack for ~~destruction~~ red team hacking, specializing in network attacks, vulnerability analysis, and custom hacking tool development. I thrive on pushing systems to their limits, exploiting weaknesses, and then reinforcing them stronger than before.
+I’m a software engineer and full-stack developer with a wide-ranging passion for building complex, interactive systems. My work spans from large-scale ARG projects and immersive web experiences to robust system administration, database management, and CI/CD pipelines.
 
-Beyond cybersecurity, I have a strong foundation in robotics and the mathematical prowess to tackle complex problems ~~I am a nerd~~. Recently, my focus has expanded into creating advanced security tools, experimenting with exploit simulations, and refining my reverse engineering skills.
+I specialize in designing and managing dynamic web platforms, NFC systems, DNS infrastructures, and even bank simulation projects, combining technical depth with creative problem-solving. I thrive on projects that challenge both logic and imagination, whether it’s crafting intricate ARGs, architecting resilient backend systems, or building polished, interactive frontends.
 
-When I’m not deep in code, you’ll find me building new software projects, diving into ARG development, and competing in technical challenges that demand both creativity and precision. 
+I have also founded the nonprofit for-teens by-teens Hack Street (under HCB non-profit status from Hack Club) and have organized and led 4+ hackathons, creating collaborative spaces for students to innovate, learn, and build real-world tech projects.
+
+**When I’m not coding, I’m experimenting with new technologies, exploring system-level projects, or pushing the boundaries of what a connected digital experience can do.**
 
 ---
 
 ## Communicate: 📡  
-Join me on email, where I share insights, victories, and even the occasional setback. [Nirt_12023@outlook.com](mailto:Nirt_12023@outlook.com)
+Join me on email, where I share insights, victories, and even the occasional setback. [Shahm_Najeeb@outlook.com](mailto:Shahm_Najeeb@outlook.com)
+
+---
 
 <body>
     <div align="center">
@@ -89,7 +92,13 @@ Join me on email, where I share insights, victories, and even the occasional set
 ---
 
 <p align="center">
-    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=DefinetlyNotAI&theme=highcontrast&hide_border=true&border_radius=5&card_width=800" alt="GitHub Streak" /></a>
+    <a href="https://git.io/streak-stats">
+        <img 
+            src="https://streak-stats.demolab.com?user=DefinetlyNotAI&theme=highcontrast&hide_border=true&border_radius=5&card_width=800" 
+            alt="" 
+            onerror="this.style.display='none'"
+        />
+    </a>
 </p>
 
 ---
@@ -97,8 +106,18 @@ Join me on email, where I share insights, victories, and even the occasional set
 
 
 <p align="center">
-  <img width="600" height="200" src="https://github-readme-stats.vercel.app/api?username=DefinetlyNotAI&size_weight=5.0&show_icons=true&theme=vision-friendly-dark">
-  <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DefinetlyNotAI&size_weight=0.15&layout=compact&theme=vision-friendly-dark&hide=jupyter%20notebook,cython,css,cuda,cmake,shell,pascal,html,scss">
+  <img 
+       src="https://github-readme-stats.vercel.app/api?username=DefinetlyNotAI&size_weight=5.0&show_icons=true&theme=vision-friendly-dark" 
+       width="600" height="200" 
+       style="border:none; display:block;" 
+       onerror="this.style.display='none'" 
+       alt=" ">
+  <img 
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=DefinetlyNotAI&size_weight=0.15&layout=compact&theme=vision-friendly-dark&hide=jupyter%20notebook,cython,css,cuda,cmake,shell,pascal,html,scss" 
+       width="400" height="200" 
+       style="border:none; display:block; margin-top:10px;" 
+       onerror="this.style.display='none'" 
+       alt=" ">
 </p>
 
 <!-- Intentionally removed Jupyter Notebook (Not a real language in my eyes), as well as CSS and html - Although for Cuda, CMake, Pascal and Shell, they were removed cuz they were decompiled libraries, and not my programming expertise -->
