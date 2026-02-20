@@ -1,7 +1,6 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=DM+Sans&weight=800&size=30&pause=250&duration=2000&color=DCABDF&width=555&lines=Hi+there!+👋,+I'm+Shahm+Najeeb;Welcome+to+my+Github+profile+🚀;Check+out+my+projects+🏆" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=DefinetlyNotAI&title=-Experience&theme=onedark" 
-     onerror="this.style.display='none'" alt="">
+<img src="https://github-profile-trophy.vercel.app/?username=DefinetlyNotAI&title=-Experience&theme=onedark">
 
 ---
 
