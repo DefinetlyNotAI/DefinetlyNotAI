@@ -1,6 +1,6 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=DM+Sans&weight=800&size=30&pause=250&duration=2000&color=DCABDF&width=555&lines=Hi+there!+👋,+I'm+Shahm+Najeeb;Welcome+to+my+Github+profile+🚀;Check+out+my+projects+🏆" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=DefinetlyNotAI&title=-Experience&theme=onedark">
+<!--<img src="https://github-profile-trophy.vercel.app/?username=DefinetlyNotAI&title=-Experience&theme=onedark">-->
 
 ---
 
@@ -103,7 +103,7 @@ Join me on email, where I share insights, victories, and even the occasional set
 ---
 
 
-
+<!--
 <p align="center">
   <img 
        src="https://github-readme-stats.vercel.app/api?username=DefinetlyNotAI&size_weight=5.0&show_icons=true&theme=vision-friendly-dark" 
@@ -119,9 +119,10 @@ Join me on email, where I share insights, victories, and even the occasional set
        alt=" ">
 </p>
 
-<!-- Intentionally removed Jupyter Notebook (Not a real language in my eyes), as well as CSS and html - Although for Cuda, CMake, Pascal and Shell, they were removed cuz they were decompiled libraries, and not my programming expertise -->
-
 ---
+-->
+
+<!-- Intentionally removed Jupyter Notebook (Not a real language in my eyes), as well as CSS and html - Although for Cuda, CMake, Pascal and Shell, they were removed cuz they were decompiled libraries, and not my programming expertise -->
 
 <p align="center">
       <img src="https://user-badge.committers.top/uae/DefinetlyNotAI.svg">
