@@ -125,7 +125,7 @@ Join me on email, where I share insights, victories, and even the occasional set
 <!-- Intentionally removed Jupyter Notebook (Not a real language in my eyes), as well as CSS and html - Although for Cuda, CMake, Pascal and Shell, they were removed cuz they were decompiled libraries, and not my programming expertise -->
 
 <p align="center">
-      <img src="https://user-badge.committers.top/uae/DefinetlyNotAI.svg">
+      <img src="https://user-badge.committers.top/jordan/DefinetlyNotAI.svg">
 </p>
 
 ---
