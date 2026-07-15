@@ -29,9 +29,6 @@ HEADERS = {
     "X-GitHub-Api-Version": "2022-11-28",
 }
 
-LANGUAGE_BAR_WIDTH = 72
-LANGUAGE_LABEL_WIDTH = 108
-
 ABOUT_TEXT = """
 I’m Shahm Najeeb, a full-stack developer, systems builder, and student
 technology organizer focused on turning ambitious ideas into working software.
@@ -80,7 +77,6 @@ GITHUB_LANGUAGE_COLORS = {
     "CoffeeScript": "#244776",
     "Common Lisp": "#3FB68B",
     "Crystal": "#000100",
-    "CSS": "#663399",
     "Cuda": "#3A4E3A",
     "D": "#BA595E",
     "Dart": "#00B4AB",
@@ -102,9 +98,7 @@ GITHUB_LANGUAGE_COLORS = {
     "JavaScript": "#F1E05A",
     "Jinja": "#A52A22",
     "Julia": "#A270BA",
-    "Jupyter Notebook": "#DA5B0B",
     "Kotlin": "#A97BFF",
-    "Less": "#1D365D",
     "Lua": "#000080",
     "MATLAB": "#E16737",
     "Makefile": "#427819",
@@ -129,7 +123,6 @@ GITHUB_LANGUAGE_COLORS = {
     "Rust": "#DEA584",
     "Sass": "#A53B70",
     "Scala": "#C22D40",
-    "SCSS": "#C6538C",
     "Shell": "#89E051",
     "Solidity": "#AA6746",
     "SQL": "#E38C00",
@@ -145,6 +138,19 @@ GITHUB_LANGUAGE_COLORS = {
     "Zig": "#EC915C",
 }
 
+IGNORED_LANGUAGES = {
+    "Jupyter Notebook",
+    "CSS",
+    "SCSS",
+    "Sass",
+    "Less",
+    "Stylus",
+}
+
+LANGUAGE_BAR_WIDTH = 72
+LANGUAGE_BAR_CHAR_WIDTH = 10
+LANGUAGE_BAR_FONT_SIZE = 22
+LANGUAGE_LABEL_FONT_SIZE = 12
 
 def request_json(url, *, method="GET", data=None, headers=None, retries=5):
     request_headers = dict(HEADERS)
@@ -542,10 +548,34 @@ def collect_languages(repositories):
         languages = repository_languages(repo)
 
         for language, byte_count in languages.items():
+            if language in IGNORED_LANGUAGES:
+                continue
+
             totals[language] += int(byte_count)
 
     return totals
 
+def repository_profile_picture():
+    encoded_path = urllib.parse.quote("pfp.png")
+
+    url = (
+        f"{REST_URL}/repos/{USER}/{USER}/contents/"
+        f"{encoded_path}"
+    )
+
+    try:
+        response = request_json(url)
+
+        if (
+            isinstance(response, dict)
+            and response.get("type") == "file"
+            and response.get("download_url")
+        ):
+            return response["download_url"]
+    except RuntimeError:
+        pass
+
+    return None
 
 def collect():
     user = profile_data()
@@ -572,10 +602,12 @@ def collect():
     additions = activity["additions"]
     deletions = activity["deletions"]
 
+    custom_profile_picture = repository_profile_picture()
+
     return {
         "name": user.get("name") or "Shahm Najeeb",
         "username": user["login"],
-        "avatar_url": user["avatarUrl"],
+        "avatar_url": custom_profile_picture or user["avatarUrl"],
         "joined": created.strftime("%d %b %Y"),
         "uptime": f"{years} years, {months} months, {days} days",
         "repos": len(repositories),
@@ -592,7 +624,6 @@ def collect():
         "rank": rank_data(),
         "languages": language_totals,
     }
-
 
 def escape(value):
     if isinstance(value, int):
@@ -675,11 +706,11 @@ def avatar_to_ascii(url, width=46):
             "          .-======================-.",
             "       .-============================-.",
             "      ==================================",
-            "     ====================================",
-            "     ============ SHAHM =================",
+            "     ============== SHAHM ===============",
             "     ========== @DefinetlyNotAI =========",
             "     ====================================",
-            "      ==================================",
+            "     =============== 404 ================",
+            "      ========== PFP Not Found =========",
             "       '-============================-'",
             "          '-======================-'",
             "              '-==============-'",
@@ -738,9 +769,9 @@ def build_language_segments(language_totals, bar_width):
     total_bytes = sum(language_totals.values())
 
     if total_bytes <= 0:
-        return [], [], []
+        return [], []
 
-    percentages = [
+    language_items = [
         {
             "name": language,
             "bytes": byte_count,
@@ -753,65 +784,65 @@ def build_language_segments(language_totals, bar_width):
 
     visible = [
         item
-        for item in percentages
+        for item in language_items
         if item["percent"] >= minimum_percent
     ]
 
-    others = [
+    hidden = [
         item
-        for item in percentages
+        for item in language_items
         if item["percent"] < minimum_percent
     ]
 
-    if others:
+    if hidden:
         visible.append(
             {
                 "name": "Others",
-                "bytes": sum(item["bytes"] for item in others),
-                "percent": sum(item["percent"] for item in others),
+                "bytes": sum(item["bytes"] for item in hidden),
+                "percent": sum(item["percent"] for item in hidden),
             }
         )
 
-    raw_allocations = [
+    exact_widths = [
         item["percent"] / 100 * bar_width
         for item in visible
     ]
 
-    allocations = [
-        max(1, math.floor(value))
-        for value in raw_allocations
+    widths = [
+        max(1, math.floor(width))
+        for width in exact_widths
     ]
 
-    while sum(allocations) > bar_width:
-        candidates = [
+    while sum(widths) > bar_width:
+        removable = [
             index
-            for index, allocation in enumerate(allocations)
-            if allocation > 1
+            for index, width in enumerate(widths)
+            if width > 1
         ]
 
-        if not candidates:
+        if not removable:
             break
 
-        remove_index = min(
-            candidates,
-            key=lambda index: (
-                raw_allocations[index] - allocations[index],
-                visible[index]["percent"],
+        index = min(
+            removable,
+            key=lambda current: (
+                exact_widths[current] - widths[current],
+                visible[current]["percent"],
             ),
         )
 
-        allocations[remove_index] -= 1
+        widths[index] -= 1
 
-    while sum(allocations) < bar_width:
-        add_index = max(
-            range(len(allocations)),
-            key=lambda index: (
-                raw_allocations[index] - allocations[index],
-                visible[index]["percent"],
+    while sum(widths) < bar_width:
+        index = max(
+            range(len(widths)),
+            key=lambda current: (
+                exact_widths[current] - widths[current],
+                visible[current]["percent"],
             ),
         )
 
-        allocations[add_index] += 1
+        widths[index] += 1
 
     predefined_colors = {
         color.lower()
@@ -822,7 +853,9 @@ def build_language_segments(language_totals, bar_width):
     previous_color = None
     segments = []
 
-    for item, width in zip(visible, allocations):
+    current_start = 0
+
+    for item, width in zip(visible, widths):
         language = item["name"]
 
         if language == "Others":
@@ -844,47 +877,65 @@ def build_language_segments(language_totals, bar_width):
         if previous_color and color.lower() == previous_color.lower():
             color = generated_language_color(
                 f"{language}-alternate",
-                predefined_colors | used_colors | {previous_color.lower()},
+                predefined_colors
+                | used_colors
+                | {previous_color.lower()},
             )
-
-        used_colors.add(color.lower())
-        previous_color = color
 
         segments.append(
             {
                 "name": language,
                 "percent": item["percent"],
                 "width": width,
+                "start": current_start,
+                "end": current_start + width,
                 "color": color,
             }
         )
 
-    return segments, visible, others
+        current_start += width
+        previous_color = color
+        used_colors.add(color.lower())
+
+    return segments, hidden
 
 
-def language_label_lines(segments, max_chars=LANGUAGE_LABEL_WIDTH):
-    labels = [
-        f"{segment['name']} {segment['percent']:.2f}%"
-        for segment in segments
-    ]
+def fit_language_label(segment):
+    full_label = (
+        f"{segment['name']} "
+        f"{segment['percent']:.2f}%"
+    )
 
-    lines = []
-    current = ""
+    available_pixels = (
+        segment["width"]
+        * LANGUAGE_BAR_CHAR_WIDTH
+    )
 
-    for label in labels:
-        decorated = f"| {label} "
-        candidate = f"{current}{decorated}"
+    estimated_character_width = (
+        LANGUAGE_LABEL_FONT_SIZE * 0.61
+    )
 
-        if len(candidate) + 1 > max_chars and current:
-            lines.append(current + "|")
-            current = decorated
-        else:
-            current = candidate
+    maximum_characters = max(
+        1,
+        int(available_pixels / estimated_character_width) - 2,
+    )
 
-    if current:
-        lines.append(current + "|")
+    if len(full_label) <= maximum_characters:
+        return full_label
 
-    return lines
+    percentage = f"{segment['percent']:.2f}%"
+    available_name_length = (
+        maximum_characters
+        - len(percentage)
+        - 2
+    )
+
+    if available_name_length < 2:
+        return percentage
+
+    shortened_name = segment["name"][:available_name_length]
+
+    return f"{shortened_name}… {percentage}"
 
 
 def svg_text(
@@ -956,12 +1007,10 @@ def svg(data, dark):
 
     avatar_lines = avatar_to_ascii(data["avatar_url"])
 
-    segments, _, other_languages = build_language_segments(
+    segments, other_languages = build_language_segments(
         data["languages"],
         LANGUAGE_BAR_WIDTH,
     )
-
-    label_lines = language_label_lines(segments)
 
     other_names = [
         item["name"]
@@ -991,14 +1040,9 @@ def svg(data, dark):
         + 54
     )
 
-    language_labels_y = language_command_y + 31
-    language_bar_y = (
-        language_labels_y
-        + len(label_lines) * 22
-        + 10
-    )
-
-    others_y = language_bar_y + 33
+    language_labels_y = language_command_y + 34
+    language_bar_y = language_labels_y + 34
+    others_y = language_bar_y + 37
     stats_command_y = (
         others_y
         + len(others_lines) * 21
@@ -1048,7 +1092,8 @@ def svg(data, dark):
             ".small{font-size:13px}"
             ".head{font-size:19px;font-weight:700}"
             ".avatar{font-size:14px}"
-            ".bar{font-size:18px;font-weight:700}"
+            f".lang-label{{font-size:{LANGUAGE_LABEL_FONT_SIZE}px}}"
+            f".lang-bar{{font-size:{LANGUAGE_BAR_FONT_SIZE}px;font-weight:700}}"
             "</style>"
         ),
         svg_text(
@@ -1120,33 +1165,72 @@ def svg(data, dark):
         )
     )
 
-    for index, line in enumerate(label_lines):
-        output.append(
-            svg_text(
-                48,
-                language_labels_y + index * 22,
-                line,
-                colors["text"],
-            )
-        )
-
-    bar_x = 48
-    character_width = 9.05
+    language_start_x = 48
 
     for segment in segments:
-        segment_text = "#" * segment["width"]
+        start_x = (
+            language_start_x
+            + segment["start"] * LANGUAGE_BAR_CHAR_WIDTH
+        )
+        end_x = (
+            language_start_x
+            + segment["end"] * LANGUAGE_BAR_CHAR_WIDTH
+        )
+        center_x = (start_x + end_x) / 2
 
         output.append(
             svg_text(
-                bar_x,
-                language_bar_y,
-                segment_text,
-                segment["color"],
-                css_class="bar",
+                start_x,
+                language_labels_y,
+                "|",
+                colors["muted"],
+                css_class="lang-label",
             )
         )
 
-        bar_x += segment["width"] * character_width
+        output.append(
+            svg_text(
+                center_x,
+                language_labels_y,
+                fit_language_label(segment),
+                colors["text"],
+                css_class="lang-label",
+                anchor="middle",
+            )
+        )
+
+    final_x = (
+        language_start_x
+        + LANGUAGE_BAR_WIDTH * LANGUAGE_BAR_CHAR_WIDTH
+    )
+
+    output.append(
+        svg_text(
+            final_x,
+            language_labels_y,
+            "|",
+            colors["muted"],
+            css_class="lang-label",
+        )
+    )
+
+    for segment in segments:
+        for character_index in range(segment["width"]):
+            absolute_index = segment["start"] + character_index
+            character_x = (
+                language_start_x
+                + absolute_index * LANGUAGE_BAR_CHAR_WIDTH
+            )
+
+            output.append(
+                svg_text(
+                    character_x,
+                    language_bar_y,
+                    "#",
+                    segment["color"],
+                    css_class="lang-bar",
+                )
+            )
 
     for index, line in enumerate(others_lines):
         output.append(
@@ -1168,19 +1252,39 @@ def svg(data, dark):
     )
 
     left_stats = [
-        ("repositories", data["repos"]),
-        ("commits", data["commits"]),
-        ("total_stars", data["stars"]),
-        ("followers", data["followers"]),
-        ("active_commit_days", data["active_days"]),
+        ("repositories", data["repos"], colors["text"]),
+        ("commits", data["commits"], colors["cyan"]),
+        ("total_stars", data["stars"], colors["amber"]),
+        ("followers", data["followers"], colors["cyan"]),
+        ("active_commit_days", data["active_days"], colors["green"]),
     ]
 
     right_stats = [
-        ("net_lines", data["loc"]),
-        ("additions", f"+{data['additions']:,}"),
-        ("deletions", f"-{data['deletions']:,}"),
-        ("code_churn", data["churn"]),
-        ("jordan_rank", data["rank"]),
+        (
+            "net_lines",
+            data["loc"],
+            colors["green"] if data["loc"] >= 0 else colors["red"],
+        ),
+        (
+            "additions",
+            f"+{data['additions']:,}",
+            colors["green"],
+        ),
+        (
+            "deletions",
+            f"-{data['deletions']:,}",
+            colors["red"],
+        ),
+        (
+            "code_churn",
+            data["churn"],
+            colors["amber"],
+        ),
+        (
+            "jordan_rank",
+            data["rank"],
+            colors["cyan"],
+        ),
     ]
 
     for column_index, values in enumerate(
@@ -1189,7 +1293,7 @@ def svg(data, dark):
         base_x = 48 + column_index * 576
         value_x = base_x + 318
 
-        for row_index, (label, value) in enumerate(values):
+        for row_index, (label, value, value_color) in enumerate(values):
             y = stats_start_y + row_index * 29
 
             output.append(
@@ -1205,8 +1309,8 @@ def svg(data, dark):
                 svg_text(
                     value_x,
                     y,
-                    escape(value),
-                    colors["text"],
+                    value,
+                    value_color,
                 )
             )
 
@@ -1224,7 +1328,7 @@ def svg(data, dark):
             366,
             streak_y,
             f"{data['streak_days']} days",
-            colors["text"],
+            colors["green"],
         )
     )
 
