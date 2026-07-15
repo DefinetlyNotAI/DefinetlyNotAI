@@ -3,10 +3,11 @@ name: Refresh profile
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 3 * * 0"
+    - cron: "0 0 * * 1"
   push:
-    branches: [profile-readme-redesign]
-    paths: [generate.py, .github/workflows/profile.yml]
+    paths:
+      - generate.py
+      - .github/workflows/profile.yml
 
 permissions:
   contents: write
