@@ -121,3 +121,4 @@ if __name__ == "__main__":
     data = collect()
     Path("dark_mode.svg").write_text(svg(data, True), encoding="utf-8")
     Path("light_mode.svg").write_text(svg(data, False), encoding="utf-8")
+\n
