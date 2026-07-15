@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: profile-readme-redesign
+          ref: main
       - name: Verify checkout
         run: test -f generate.py
       - uses: actions/setup-python@v5
