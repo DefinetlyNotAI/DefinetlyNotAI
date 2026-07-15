@@ -147,10 +147,12 @@ IGNORED_LANGUAGES = {
     "Stylus",
 }
 
-LANGUAGE_BAR_WIDTH = 72
-LANGUAGE_BAR_CHAR_WIDTH = 10
-LANGUAGE_BAR_FONT_SIZE = 22
-LANGUAGE_LABEL_FONT_SIZE = 12
+LANGUAGE_BAR_WIDTH = 110
+LANGUAGE_BAR_PIXEL_WIDTH = 1100
+LANGUAGE_BAR_FONT_SIZE = 20
+LANGUAGE_LABEL_FONT_SIZE = 11
+LANGUAGE_LABEL_CHAR_WIDTH = 6.7
+LANGUAGE_LABEL_PADDING = 18
 
 def request_json(url, *, method="GET", data=None, headers=None, retries=5):
     request_headers = dict(HEADERS)
@@ -765,13 +767,17 @@ def hsl_to_hex(hue, saturation, lightness):
     return f"#{red:02X}{green:02X}{blue:02X}"
 
 
+def language_label(language, percent):
+    return f"{language} {percent:.2f}%"
+
+
 def build_language_segments(language_totals, bar_width):
     total_bytes = sum(language_totals.values())
 
     if total_bytes <= 0:
         return [], []
 
-    language_items = [
+    items = [
         {
             "name": language,
             "bytes": byte_count,
@@ -780,19 +786,24 @@ def build_language_segments(language_totals, bar_width):
         for language, byte_count in language_totals.most_common()
     ]
 
-    minimum_percent = 100 / bar_width
+    # A language only receives its own labelled segment when both its bar
+    # section and its complete one-line label can fit. Everything else is
+    # grouped into Others, preventing labels from colliding.
+    visible = []
+    hidden = []
 
-    visible = [
-        item
-        for item in language_items
-        if item["percent"] >= minimum_percent
-    ]
+    for item in items:
+        segment_pixels = item["percent"] / 100 * LANGUAGE_BAR_PIXEL_WIDTH
+        label_pixels = (
+            len(language_label(item["name"], item["percent"]))
+            * LANGUAGE_LABEL_CHAR_WIDTH
+            + LANGUAGE_LABEL_PADDING
+        )
 
-    hidden = [
-        item
-        for item in language_items
-        if item["percent"] < minimum_percent
-    ]
+        if segment_pixels >= label_pixels:
+            visible.append(item)
+        else:
+            hidden.append(item)
 
     if hidden:
         visible.append(
@@ -807,11 +818,7 @@ def build_language_segments(language_totals, bar_width):
         item["percent"] / 100 * bar_width
         for item in visible
     ]
-
-    widths = [
-        max(1, math.floor(width))
-        for width in exact_widths
-    ]
+    widths = [max(1, math.floor(width)) for width in exact_widths]
 
     while sum(widths) > bar_width:
         removable = [
@@ -819,7 +826,6 @@ def build_language_segments(language_totals, bar_width):
             for index, width in enumerate(widths)
             if width > 1
         ]
-
         if not removable:
             break
 
@@ -830,7 +836,6 @@ def build_language_segments(language_totals, bar_width):
                 visible[current]["percent"],
             ),
         )
-
         widths[index] -= 1
 
     while sum(widths) < bar_width:
@@ -841,18 +846,15 @@ def build_language_segments(language_totals, bar_width):
                 visible[current]["percent"],
             ),
         )
-
         widths[index] += 1
 
     predefined_colors = {
         color.lower()
         for color in GITHUB_LANGUAGE_COLORS.values()
     }
-
     used_colors = set()
     previous_color = None
     segments = []
-
     current_start = 0
 
     for item, width in zip(visible, widths):
@@ -865,26 +867,20 @@ def build_language_segments(language_totals, bar_width):
 
             if color is None:
                 unavailable = predefined_colors | used_colors
-
                 if previous_color:
                     unavailable.add(previous_color.lower())
-
-                color = generated_language_color(
-                    language,
-                    unavailable,
-                )
+                color = generated_language_color(language, unavailable)
 
         if previous_color and color.lower() == previous_color.lower():
             color = generated_language_color(
                 f"{language}-alternate",
-                predefined_colors
-                | used_colors
-                | {previous_color.lower()},
+                predefined_colors | used_colors | {previous_color.lower()},
             )
 
         segments.append(
             {
                 "name": language,
+                "label": language_label(language, item["percent"]),
                 "percent": item["percent"],
                 "width": width,
                 "start": current_start,
@@ -900,43 +896,31 @@ def build_language_segments(language_totals, bar_width):
     return segments, hidden
 
 
-def fit_language_label(segment):
-    full_label = (
-        f"{segment['name']} "
-        f"{segment['percent']:.2f}%"
+def svg_text_length(
+    x,
+    y,
+    content,
+    color,
+    text_length,
+    *,
+    css_class=None,
+):
+    attributes = [
+        f'x="{x}"',
+        f'y="{y}"',
+        f'fill="{color}"',
+        f'textLength="{text_length}"',
+        'lengthAdjust="spacingAndGlyphs"',
+    ]
+
+    if css_class:
+        attributes.append(f'class="{css_class}"')
+
+    return (
+        f"<text {' '.join(attributes)}>"
+        f"{html.escape(str(content))}"
+        f"</text>"
     )
-
-    available_pixels = (
-        segment["width"]
-        * LANGUAGE_BAR_CHAR_WIDTH
-    )
-
-    estimated_character_width = (
-        LANGUAGE_LABEL_FONT_SIZE * 0.61
-    )
-
-    maximum_characters = max(
-        1,
-        int(available_pixels / estimated_character_width) - 2,
-    )
-
-    if len(full_label) <= maximum_characters:
-        return full_label
-
-    percentage = f"{segment['percent']:.2f}%"
-    available_name_length = (
-        maximum_characters
-        - len(percentage)
-        - 2
-    )
-
-    if available_name_length < 2:
-        return percentage
-
-    shortened_name = segment["name"][:available_name_length]
-
-    return f"{shortened_name}… {percentage}"
-
 
 def svg_text(
     x,
@@ -1166,16 +1150,13 @@ def svg(data, dark):
     )
 
     language_start_x = 48
+    bar_unit_width = LANGUAGE_BAR_PIXEL_WIDTH / LANGUAGE_BAR_WIDTH
 
+    # Labels use the same exact pixel boundaries as their bar segments.
+    # Since undersized languages are grouped into Others, every label fits.
     for segment in segments:
-        start_x = (
-            language_start_x
-            + segment["start"] * LANGUAGE_BAR_CHAR_WIDTH
-        )
-        end_x = (
-            language_start_x
-            + segment["end"] * LANGUAGE_BAR_CHAR_WIDTH
-        )
+        start_x = language_start_x + segment["start"] * bar_unit_width
+        end_x = language_start_x + segment["end"] * bar_unit_width
         center_x = (start_x + end_x) / 2
 
         output.append(
@@ -1187,26 +1168,20 @@ def svg(data, dark):
                 css_class="lang-label",
             )
         )
-
         output.append(
             svg_text(
                 center_x,
                 language_labels_y,
-                fit_language_label(segment),
+                segment["label"],
                 colors["text"],
                 css_class="lang-label",
                 anchor="middle",
             )
         )
 
-    final_x = (
-        language_start_x
-        + LANGUAGE_BAR_WIDTH * LANGUAGE_BAR_CHAR_WIDTH
-    )
-
     output.append(
         svg_text(
-            final_x,
+            language_start_x + LANGUAGE_BAR_PIXEL_WIDTH,
             language_labels_y,
             "|",
             colors["muted"],
@@ -1214,23 +1189,22 @@ def svg(data, dark):
         )
     )
 
+    # Render one string per segment and force it into the segment's exact
+    # pixel width. This fills the terminal width without overlapping glyphs.
     for segment in segments:
-        for character_index in range(segment["width"]):
-            absolute_index = segment["start"] + character_index
-            character_x = (
-                language_start_x
-                + absolute_index * LANGUAGE_BAR_CHAR_WIDTH
-            )
+        start_x = language_start_x + segment["start"] * bar_unit_width
+        segment_width = segment["width"] * bar_unit_width
 
-            output.append(
-                svg_text(
-                    character_x,
-                    language_bar_y,
-                    "#",
-                    segment["color"],
-                    css_class="lang-bar",
-                )
+        output.append(
+            svg_text_length(
+                start_x,
+                language_bar_y,
+                "#" * segment["width"],
+                segment["color"],
+                segment_width,
+                css_class="lang-bar",
             )
+        )
 
     for index, line in enumerate(others_lines):
         output.append(
