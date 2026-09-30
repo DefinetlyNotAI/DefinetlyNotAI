@@ -6,7 +6,7 @@
 ---
 
 <p align="center">
-    <a href="https://user-badge.committers.top/jordan/USERNAME">
+    <a href="https://user-badge.committers.top/jordan/DefinetlyNotAI">
     <img src="https://user-badge.committers.top/jordan/DefinetlyNotAI.svg" alt="committers.top badge">
     </a>
 </p>
